@@ -7,6 +7,8 @@ Pod::Spec.new do |s|
   #s.author       = { "Chris Ballinger" => "chris@openwatch.net" }
   s.platform     = :ios, '8.0'
   s.source       = { :git => "https://github.com/hearther/FFmpegWrapper.git"}
+  s.requires_arc = false
+  
   s.default_subspec = 'precompiled'
   s.subspec 'precompiled' do |ss|
     ss.source_files        = 'include/**/*.h'
@@ -14,6 +16,6 @@ Pod::Spec.new do |s|
     ss.header_mappings_dir = 'include'
     ss.vendored_libraries  = 'lib/*.a'
     ss.libraries = 'x264', 'avcodec', 'avdevice', 'avfilter', 'avformat', 'avutil', 'swresample', 'swscale', 'iconv', 'z', 'bz2'
-  end  s.requires_arc = no
-
-#  s.dependenc
+  end  
+  
+end
