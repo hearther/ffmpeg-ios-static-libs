@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "precompiled static library of ffmpeg"
   s.homepage     = "https://github.com/hearther/ffmpeg-ios-static-libs.git"
   s.license      = 'LGPLv2.1'
-  #s.author       = { "Chris Ballinger" => "chris@openwatch.net" }
+  s.author       = { "Chris Ballinger" => "chris@openwatch.net" }
   s.platform     = :ios, '8.0'
   s.source       = { :git => "https://github.com/hearther/FFmpegWrapper.git"}
   s.requires_arc = false
