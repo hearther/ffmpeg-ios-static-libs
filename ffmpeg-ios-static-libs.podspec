@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ffmpeg-ios-static-libs"
-  s.version      = "3.1"
+  s.version      = "3.1.4"
   s.summary      = "precompiled static library of ffmpeg"
   s.homepage     = "https://github.com/hearther/ffmpeg-ios-static-libs.git"
   s.license      = 'LGPLv2.1'
